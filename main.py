@@ -34,7 +34,5 @@ while True:
         print("Input is invalid\nRetrying ...")
         continue
 
-    numbers_list = list(range(min_valid, max_valid + 1))
-
 # Give victory message here
 print(f"Computer wins!\nThe guess: {guess} is correct!")
